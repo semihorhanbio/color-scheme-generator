@@ -1,13 +1,13 @@
-# co73343ea8c93c5d396d7ac67
+This is one of the solo projects that is implementation of color scheme generator. It is required to finish Scrimba Frontend Career Path. 
 
-Quick start:
+## Technologies used
 
-```
-$ npm install
-$ npm start
-````
+HTML, CSS, Vanilla JS
 
-Head over to https://vitejs.dev/ to learn more about using vite
+## Live
+
+https://semihorhanbio.github.io/color-scheme-generator/
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
