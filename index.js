@@ -1,7 +1,7 @@
 const color = document.getElementById('color-picker')
 const colorMode = document.getElementById('color-mode')
 
-document.getElementById('scheme-btn').addEventListener('click', () => {
+document.getElementById('get-scheme-btn').addEventListener('click', () => {
     const hexValue = color.value.replace('#', '')
     const mode = colorMode.value
     
@@ -11,7 +11,7 @@ document.getElementById('scheme-btn').addEventListener('click', () => {
             let html = ''
             data.colors.forEach(color => {
                 html += `
-                    <div>
+                    <div class="color-item">
                         <img src="${color.image.bare}"/>
                         <p>${color.hex.value}</p>
                     </div>
